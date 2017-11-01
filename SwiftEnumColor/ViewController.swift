@@ -12,7 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        view.backgroundColor = self.changeColor()
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,4 +23,12 @@ class ViewController: UIViewController {
 
 
 }
-
+protocol aProtocol {}
+extension aProtocol where Self: UIViewController {
+    func changeColor() -> UIColor {
+        return UIColor.SB.red.Color()
+    }
+}
+extension ViewController: aProtocol{
+    
+}

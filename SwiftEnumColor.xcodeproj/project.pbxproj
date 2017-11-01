@@ -14,6 +14,7 @@
 		69BFB0841FA99B0000F4BFC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69BFB0821FA99B0000F4BFC1 /* LaunchScreen.storyboard */; };
 		69BFB08F1FA99B0000F4BFC1 /* SwiftEnumColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BFB08E1FA99B0000F4BFC1 /* SwiftEnumColorTests.swift */; };
 		69BFB09A1FA99B0000F4BFC1 /* SwiftEnumColorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BFB0991FA99B0000F4BFC1 /* SwiftEnumColorUITests.swift */; };
+		69BFB0AA1FA99BC500F4BFC1 /* UIColor+SBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BFB0A91FA99BC500F4BFC1 /* UIColor+SBColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		69BFB0951FA99B0000F4BFC1 /* SwiftEnumColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftEnumColorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69BFB0991FA99B0000F4BFC1 /* SwiftEnumColorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEnumColorUITests.swift; sourceTree = "<group>"; };
 		69BFB09B1FA99B0000F4BFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69BFB0A91FA99BC500F4BFC1 /* UIColor+SBColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+SBColor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				69BFB0791FA99B0000F4BFC1 /* AppDelegate.swift */,
 				69BFB07B1FA99B0000F4BFC1 /* ViewController.swift */,
+				69BFB0A91FA99BC500F4BFC1 /* UIColor+SBColor.swift */,
 				69BFB07D1FA99B0000F4BFC1 /* Main.storyboard */,
 				69BFB0801FA99B0000F4BFC1 /* Assets.xcassets */,
 				69BFB0821FA99B0000F4BFC1 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69BFB0AA1FA99BC500F4BFC1 /* UIColor+SBColor.swift in Sources */,
 				69BFB07C1FA99B0000F4BFC1 /* ViewController.swift in Sources */,
 				69BFB07A1FA99B0000F4BFC1 /* AppDelegate.swift in Sources */,
 			);
