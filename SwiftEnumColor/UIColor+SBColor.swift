@@ -17,21 +17,39 @@ extension UIColor {
         case blue
         case yellow
         case green
-        func Color() -> UIColor {
-            switch self {
-            case .white:
-                return UIColor.white
-            case .black:
-                return UIColor.black
-            case .red:
-                return UIColor.red
-            case .blue:
-                return UIColor.blue
-            case .yellow:
-                return UIColor.yellow
-            case .green:
-                return UIColor.green
+        var color: UIColor {
+            get {
+                switch self {
+                case .white:
+                    return UIColor.white
+                case .black:
+                    return UIColor.black
+                case .red:
+                    return UIColor.red
+                case .blue:
+                    return UIColor.blue
+                case .yellow:
+                    return UIColor.yellow
+                case .green:
+                    return UIColor.green
+                }
             }
         }
+//        func Color() -> UIColor {
+//            switch self {
+//            case .white:
+//                return UIColor.white
+//            case .black:
+//                return UIColor.black
+//            case .red:
+//                return UIColor.red
+//            case .blue:
+//                return UIColor.blue
+//            case .yellow:
+//                return UIColor.yellow
+//            case .green:
+//                return UIColor.green
+//            }
+//        }
     }
 }
