@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension UIColor {
+//extension UIColor {
     enum SB {
         case white
         case black
@@ -52,4 +52,5 @@ extension UIColor {
 //            }
 //        }
     }
-}
+//}
+

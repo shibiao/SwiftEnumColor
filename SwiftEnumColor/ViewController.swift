@@ -26,7 +26,7 @@ class ViewController: UIViewController {
 protocol aProtocol {}
 extension aProtocol where Self: UIViewController {
     func changeColor() -> UIColor {
-        return UIColor.SB.blue.color
+        return SB.blue.color
     }
 }
 extension ViewController: aProtocol{
